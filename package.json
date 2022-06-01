@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@hsui/core": "1.8.0",
+    "@hsui/plugin-lint": "^1.2.0",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.2",
+    "echarts": "^5.2.2",
+    "h_ui": "^1.33.0"
+  },
+  "devDependencies": {
+    "@hsui/plugin-micro-app": "1.8.0"
+  },
+  "scripts": {
+    "dev": "hui dev -p 2021 -b",
+    "build": "hui build",
+    "serve": "npm run build && npx http-server ./dist -p 2023"
+  },
+  "main": "hui.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
